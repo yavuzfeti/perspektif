@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondary"
+    tools:context=".acilis">
+
+    <TextView
+        android:id="@+id/acilisharfi"
+        android:layout_width="45dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="1000dp"
+        android:foreground="@drawable/acilis"
+        android:textAlignment="center"
+        android:textColor="@color/sarı"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/eharfi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <TextView
+        android:id="@+id/eharfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="E"
+        android:textAlignment="center"
+        android:textColor="@color/kahverengi"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rharfi"
+        app:layout_constraintStart_toEndOf="@+id/acilisharfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/rharfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="R"
+        android:textAlignment="center"
+        android:textColor="@color/yeşil"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sharfi"
+        app:layout_constraintStart_toEndOf="@+id/eharfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/sharfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="S"
+        android:textAlignment="center"
+        android:textColor="@color/kırmızı"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/p2harfi"
+        app:layout_constraintStart_toEndOf="@+id/rharfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/p2harfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="P"
+        android:textAlignment="center"
+        android:textColor="@color/sarı"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/e2harfi"
+        app:layout_constraintStart_toEndOf="@+id/sharfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/e2harfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="E"
+        android:textAlignment="center"
+        android:textColor="@color/mor"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kharfi"
+        app:layout_constraintStart_toEndOf="@+id/p2harfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/kharfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="K"
+        android:textAlignment="center"
+        android:textColor="@color/kahverengi"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tharfi"
+        app:layout_constraintStart_toEndOf="@+id/e2harfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/tharfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="T"
+        android:textAlignment="center"
+        android:textColor="@color/sarı"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iharfi"
+        app:layout_constraintStart_toEndOf="@+id/kharfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/iharfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="İ"
+        android:textAlignment="center"
+        android:textColor="@color/yeşil"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fharfi"
+        app:layout_constraintStart_toEndOf="@+id/tharfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/fharfi"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="1000dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="F"
+        android:textAlignment="center"
+        android:textColor="@color/kırmızı"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iharfi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

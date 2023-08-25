@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="yeşil">#849161</color>
+    <color name="mavi2">#5a7aa2</color>
+    <color name="sarı">#efdc75</color>
+    <color name="kırmızı">#de6646</color>
+    <color name="mor">#967bb6</color>
+    <color name="kahverengi">#664b40</color>
+    <color name="mavi">#0087BD</color>
+    <color name="siyah">#000000</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="seffaf">#00FF0000</color>
+    <color name="arkaplan">#222222</color>
+    <color name="arkaplanmode">#444444</color>
+    <color name="soft2">#bc9d70</color>
+    <color name="soft">#363636</color>
+</resources>

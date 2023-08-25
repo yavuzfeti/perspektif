@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondary"
+    tools:context=".ana_sayfa">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bar_arka" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/oyna"
+        android:onClick="oyna"
+        app:layout_constraintBottom_toTopOf="@+id/sorular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/bar1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sorular"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/sorular"
+        android:onClick="sorular"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/bar11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/bar20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/tonyukuk"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/mavi"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/kreditext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/yazitipi"
+        android:text="0"
+        android:textColor="@color/mavi"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/perspektif" />
+
+    <ImageView
+        android:id="@+id/cikis"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cikis"
+        android:onClick="geri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/renkbuton"
+        android:layout_width="32dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/koyu"
+        android:onClick="renkbutonu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toEndOf="@+id/kreditext2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/sesbuton"
+        android:layout_width="32dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ses_acik"
+        android:onClick="sesbutonu"
+        app:layout_constraintEnd_toStartOf="@+id/kreditext2"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

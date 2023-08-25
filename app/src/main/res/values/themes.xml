@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Perspektif.Fullscreen" parent="Theme.MaterialComponents">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/seffaf</item>
+        <item name="colorPrimaryVariant">@color/seffaf</item>
+        <item name="colorOnPrimary">@color/seffaf</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/arkaplanmode</item>
+        <item name="colorSecondaryVariant">@color/arkaplanmode</item>
+        <item name="colorOnSecondary">@color/arkaplanmode</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/arkaplan</item>
+    </style>
+</resources>
